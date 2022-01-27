@@ -1,6 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f2d4bc;
 }
+
+.boxy{
+    width: 50px;
+    height: 50px;
+    padding: auto;
+    margin: auto;
+    background-color: crimson;
+
+
+}
+
+.boxy:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+body{
+    background-color: #f2d4bc;
+
+}
+
+header{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.container-grid{
+    width: 1400px;
+    margin: auto;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+}
+
+.topo nav{
+    width: 1200px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.menu a{
+    text-transform: uppercase;
+    color: #585551;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+'&hover': {
+        
+    }
+    
+    
+
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+

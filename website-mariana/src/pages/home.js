@@ -9,10 +9,13 @@ function Mari() {
         <section className="general">
 
             <body>
-                
+
+                <div className="boxy"></div>
             <header>
+                <div className="container-grid topo">
+                    
                 <nav>
-                    <ul>
+                    <ul className="menu">
                         <li><Link to="/teste">Home</Link></li>
                         <li><Link href="#">O que eu faço</Link></li>
                         <li><Link href="#">Skills</Link></li>
@@ -20,6 +23,7 @@ function Mari() {
                         <li><Link href="">Contato</Link></li>
                     </ul>
                 </nav>
+                </div>
             </header>
             </body> 
 
