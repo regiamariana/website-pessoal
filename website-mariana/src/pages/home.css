@@ -74,42 +74,56 @@ header{
 .banner{
     display: flex;
    justify-content: space-between;
-   align-items: center;
-   /* background-color: blue; */
+align-items: flex-start;   /* background-color: blue; */
    height: 800px;
 }
 
 #imagem1{
     position: relative;
-    /* background-color: blue */
+    /* background-color: blue; */
+    height: 730px;
+    display: flex;
+    align-items: center;
+
 }
 #imagem2{
 
     position: absolute;
     /* background-color: aquamarine; */
-    right: 140px;
+    top: 0;
+    right: 10px;
+    height: 750px;
+    display: flex;
+    align-items: center;
 }
 
 #imagem1 img{
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
 }
 #imagem2 img{
-    width: 620px;
-    height: 620px;
+    width: 560px;
+    height: 560px;
     
 }
 
 .texto{
     /* background-color: aqua; */
     height: 400px;
+    /* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;  */
+    position: absolute;
+    /* background-color: aqua; */
+    top: 190px;
 }
+
 
 .texto h3{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     color: #585551;
-
+    
 }
 
 .texto h1{
@@ -126,3 +140,47 @@ header{
     width: 600px;
     /* background-color: aqua; */
 }
+
+
+
+.manchaBranca {
+position: relative;
+/* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);  */
+height: 600px;
+width: 900px;
+/* top: 1px; */
+/* background-color: brown; */
+}
+.manchaBranca img{
+/* position: relative; */
+/* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);  */
+height: 700px;
+width: 700px;
+/* top: 1px; */
+/* background-color: brown; */
+}
+
+.manchaVerde{
+    position: absolute;
+    /* background-color: brown; */
+    bottom: -300px;
+    right: -200px;
+    /* height: 1300px; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+.manchaVerde img{
+    width: 550px;
+    height: 550px;
+}
+
+.mouse{
+    display: flex;
+    justify-content: center;
+}
+
+.mouse img{
+    width: 100px;
+    height: 150px;
+}
+

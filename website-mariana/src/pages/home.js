@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 
 import circuloVazado from '../assets/img/grafismos/circuloVazadoPNG.png'
 import imagemMinhaBanner from '../assets/img/fotos minhas/fotoHomePNG.png'
+import manchaBranca from '../assets/img/grafismos/grafismoManchaBrancaPNG.png'
+import manchaVerde from '../assets/img/grafismos/grafismoManchaVerdePNG.png'
+import mouse from '../assets/img/icones/mouseCerto.png'
+// import teste from '../assets/img/icones/css.png'
 
 import '../pages/home.css'
 function Mari() {
@@ -31,21 +35,38 @@ function Mari() {
 
             </header>
                 <div className="container-grid banner">
-                    <div className="texto">
+                    
+                        <div className="manchaBranca">
+                            <img  src={manchaBranca} alt="" />
+                        
+
+                            <div className="manchaVerde">
+                                <img src={manchaVerde} alt="" />
+                            </div>
+                            <div className="texto abrigo">
+
+                            
                         <h3>Hello World,</h3>
                         <h1>sou a mariana</h1>
                         <h4>WEB DEVELOPER, WEB DESIGNER E PUBLICITÁRIA EM ASCENÇÃO :)</h4>
+
                     </div>
+                        </div>
+                    
                     <div id="imagem1">
 
                     <img src={imagemMinhaBanner} alt="" />
 
-                    </div>
-
                     <div id="imagem2">
                     <img src={circuloVazado} alt="" />
                     </div>
+                    </div>
+
+
                 </div>
+                    <div className="mouse container-grid">
+                        <img src={mouse} alt="" />
+                    </div>
             </body> 
 
             <footer></footer>      
