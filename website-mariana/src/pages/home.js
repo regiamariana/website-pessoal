@@ -10,7 +10,7 @@ function Mari() {
 
             <body>
 
-                <div className="boxy"></div>
+                {/* <div className="boxy"></div> */}
             <header>
                 <div className="container-grid topo">
                     
