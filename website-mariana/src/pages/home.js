@@ -3,6 +3,10 @@
 // import { Link } from "react-router-dom";
 import React from "react";
 import { Link } from "react-router-dom";
+
+import circuloVazado from '../assets/img/grafismos/circuloVazadoPNG.png'
+import imagemMinhaBanner from '../assets/img/fotos minhas/fotoHomePNG.png'
+
 import '../pages/home.css'
 function Mari() {
     return(
@@ -24,7 +28,24 @@ function Mari() {
                     </ul>
                 </nav>
                 </div>
+
             </header>
+                <div className="container-grid banner">
+                    <div className="texto">
+                        <h3>Hello World,</h3>
+                        <h1>sou a mariana</h1>
+                        <h4>WEB DEVELOPER, WEB DESIGNER E PUBLICITÁRIA EM ASCENÇÃO :)</h4>
+                    </div>
+                    <div id="imagem1">
+
+                    <img src={imagemMinhaBanner} alt="" />
+
+                    </div>
+
+                    <div id="imagem2">
+                    <img src={circuloVazado} alt="" />
+                    </div>
+                </div>
             </body> 
 
             <footer></footer>      

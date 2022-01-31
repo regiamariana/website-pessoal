@@ -66,7 +66,63 @@ header{
 }
 
 .menu a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #f5f5ef;
 }
 
+
+.banner{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-color: blue; */
+   height: 800px;
+}
+
+#imagem1{
+    position: relative;
+    /* background-color: blue */
+}
+#imagem2{
+
+    position: absolute;
+    /* background-color: aquamarine; */
+    right: 140px;
+}
+
+#imagem1 img{
+    width: 600px;
+    height: 600px;
+}
+#imagem2 img{
+    width: 620px;
+    height: 620px;
+    
+}
+
+.texto{
+    /* background-color: aqua; */
+    height: 400px;
+}
+
+.texto h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #585551;
+
+}
+
+.texto h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 150px;
+    color: #585551;
+}
+.texto h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #c7998c;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 600px;
+    /* background-color: aqua; */
+}
