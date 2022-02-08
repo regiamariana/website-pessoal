@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600;700&display=swap');
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -84,7 +86,7 @@ align-items: flex-start;   /* background-color: blue; */
     height: 730px;
     display: flex;
     align-items: center;
-
+    animation: isBouncing 1s ease-in-out alternate infinite;
 }
 #imagem2{
 
@@ -107,16 +109,54 @@ align-items: flex-start;   /* background-color: blue; */
     
 }
 
+
+
 .texto{
     /* background-color: aqua; */
-    height: 400px;
+    height: 800px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
     /* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);
     background-repeat: no-repeat;
     background-size: cover;  */
-    position: absolute;
+    /* position: absolute; */
     /* background-color: aqua; */
-    top: 190px;
+    
+    /* margin-left: -1200px;
+    margin-top: 100px; */
+    background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNGcerto.png);
+    background-repeat: no-repeat;
+ 
 }
+
+.abrigoo{
+    /* background-color: aqua; */
+    height: 800px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+
+    /* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;  */
+    /* position: absolute; */
+    /* background-color: aqua; */
+    
+    /* margin-left: -1200px;
+    margin-top: 100px; */
+    background-image: url(../assets/img/grafismos/grafismoManchaVerdePNG.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 450px 450px;
+    /* padding-left: 500px; */
+    /* animation: animacaoVerde 5s ; */
+    
+}
+
+
 
 
 .texto h3{
@@ -141,16 +181,32 @@ align-items: flex-start;   /* background-color: blue; */
     /* background-color: aqua; */
 }
 
-
-
-.manchaBranca {
-position: relative;
-/* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);  */
-height: 600px;
-width: 900px;
-/* top: 1px; */
-/* background-color: brown; */
+.abrigo{
+    /* display: block; */
+    /* background-color: blueviolet; */
+    height: 480px;
+    display: flex;
+    align-items: flex-end;
 }
+.aaa{
+    /* display: block; */
+    /* background-color: wheat; */
+    /* height: 500px; */
+    display: block;
+}
+
+
+
+/* .manchaBranca { */
+/* position: relative; */
+/* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);  */
+/* height: 600px;
+width: 900px; */
+/* top: 1px; */
+/* background-color: brown;
+display: flex; */
+
+/* } */
 .manchaBranca img{
 /* position: relative; */
 /* background-image: url(../assets/img/grafismos/grafismoManchaBrancaPNG.png);  */
@@ -160,23 +216,33 @@ width: 700px;
 /* background-color: brown; */
 }
 
-.manchaVerde{
-    position: absolute;
+/* .manchaVerde{ */
+    /* position: absolute; */
     /* background-color: brown; */
-    bottom: -300px;
-    right: -200px;
+    /* bottom: -200px;
+    right: -200px; */
     /* height: 1300px; */
     /* display: flex; */
     /* align-items: center; */
-}
-.manchaVerde img{
+/* } */
+.manchaVerde {
     width: 550px;
     height: 550px;
+    background-image: url(../assets/img/grafismos/grafismoManchaVerdePNG.png);
+    background-size: 550px 550px;
+    background-color: aqua;
+    
 }
 
 .mouse{
     display: flex;
     justify-content: center;
+    background-color: red;
+    /* position: absolute; */
+    bottom: 0;
+    /* left: 0; */
+    width: 200px;
+    right: 0;
 }
 
 .mouse img{
@@ -184,3 +250,26 @@ width: 700px;
     height: 150px;
 }
 
+
+
+@keyframes animacaoVerde {
+    0% {transform:rotate(0deg);}
+    50% {transform:rotate(180deg);}
+    100% {transform:rotate(0deg);}
+}
+
+@keyframes isBouncing{
+    to{
+        transform: translateY(10px);
+    }
+
+    /* from  {
+        transform: translateY(10px)
+    } */
+}
+
+@keyframes isBouncing2{
+    to{
+        transform: translateX(10px);
+    }
+}
