@@ -12,7 +12,7 @@ import imagemMinhaBanner from '../assets/img/fotos minhas/fotoHomePNG.png'
 // import teste from '../assets/img/icones/css.png'
 
 import '../pages/home.css'
-import '../pages/novo.scss'
+// import '../pages/novo.scss'
 function Mari() {
     return(
         <section className="general">
