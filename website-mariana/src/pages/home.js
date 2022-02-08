@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 import circuloVazado from '../assets/img/grafismos/circuloVazadoPNG.png'
 import imagemMinhaBanner from '../assets/img/fotos minhas/fotoHomePNG.png'
-import manchaBranca from '../assets/img/grafismos/grafismoManchaBrancaPNG.png'
+// import manchaBranca from '../assets/img/grafismos/grafismoManchaBrancaPNG.png'
 // import manchaVerde from '../assets/img/grafismos/grafismoManchaVerdePNG.png'
-import mouse from '../assets/img/icones/mouseCerto.png'
+// import mouse from '../assets/img/icones/mouseCerto.png'
 // import teste from '../assets/img/icones/css.png'
 
 import '../pages/home.css'
